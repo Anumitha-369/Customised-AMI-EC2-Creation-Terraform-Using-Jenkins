@@ -39,7 +39,7 @@ resource "aws_security_group" "allow_ssh_http" {
 
 # EC2 Instance from Custom AMI
 resource "aws_instance" "from_ami" {
-  ami           = "ami-0875a62a2766f43c6"   # Your custom AMI
+  ami           = "ami-02f398689276ace9b"   # Your custom AMI
   instance_type = "t2.micro"
   key_name      = "terraform-keypair"
 
